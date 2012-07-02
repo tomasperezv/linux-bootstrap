@@ -1,1 +1,1 @@
-sudo apt-get install acpi secure-delete opensc
+sudo apt-get install acpi secure-delete opensc gparted
