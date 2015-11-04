@@ -1,2 +1,9 @@
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
-sudo apt-get install acpi secure-delete opensc spotify gparted xsel
+# veracrypt
+sudo add-apt-repository ppa:unit193/encryption
+
+#node.js
+curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+
+# Update and install packages
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install -y acpi secure-delete opensc xsel curl cmake python-dev git silversearcher-ag exuberant-ctags veracrypt nodejs
