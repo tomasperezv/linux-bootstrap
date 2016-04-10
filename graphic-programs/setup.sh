@@ -1,1 +1,1 @@
-sudo apt-get install -y gparted
+sudo apt-get install -y gparted gksu
